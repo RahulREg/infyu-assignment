@@ -20,7 +20,7 @@ export const Navbar = () => {
                         USD
                     </Dropdown.Toggle>
 
-                    <Dropdown.Menu className="options">
+                    <Dropdown.Menu className="menu">
                         <Dropdown.Item href="#/action-1">USD</Dropdown.Item>
                         <Dropdown.Item href="#/action-2">In</Dropdown.Item>
                     </Dropdown.Menu>

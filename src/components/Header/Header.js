@@ -8,7 +8,7 @@ import { Dropdown,DropdownButton } from 'react-bootstrap';
 const Header = () => {
     return (
         <div className="header">
-            <img src="./images/gmart.PNG" />
+            <img src="./images/gmart.PNG" className="image"/>
             <div className="names">
                 <p>Home</p>
                 <DropdownButton id="dropdown-basic-button" title="Shop">
@@ -25,10 +25,10 @@ const Header = () => {
                 </DropdownButton>
                 <p>Contact Us</p>
             </div>
-            <div className="icons">
-                <FaHeart />
-                <AiOutlineShoppingCart />
-                <BsPersonFill />
+            <div>
+                <FaHeart className="icon"/>
+                <AiOutlineShoppingCart className="icon"/>
+                <BsPersonFill className="icon"/>
             </div>
         </div>
     )

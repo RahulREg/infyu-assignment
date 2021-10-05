@@ -1,0 +1,39 @@
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image {
+    width: 200px;
+    height: auto;
+}
+
+.names {
+    padding: 0 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+p {
+    display: block;
+    margin-top: 18px;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 0 1rem;
+}
+
+#dropdown-basic-button {
+    margin: 0;
+    padding: 0 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    color: black;
+    background-color: white;
+}
+
+.icon {
+    margin: 0 1rem;
+}
