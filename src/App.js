@@ -14,6 +14,11 @@ import Pictures from './components/Pictures/Pictures';
 import './components/Pictures/Pictures.css';
 import Product from './components/Product/Product';
 import './components/Product/Product.css';
+import Cards from './components/Card/Cards';
+import './components/Card/Cards.css';
+import CountDown from './components/CountDown/CountDown';
+import './components/CountDown/CountDown.css';
+
 
 function App() {
   return (
@@ -24,6 +29,8 @@ function App() {
       <Hero />
       <Pictures />
       <Product />
+      <Cards />
+      <CountDown />
       <Footer />
     </>
   );

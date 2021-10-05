@@ -1,0 +1,49 @@
+.wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid gray;
+    width: 250px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.card .img-contain {
+    display: flex;
+    overflow: hidden;
+}
+
+.card img {
+    justify-self: center;
+    width: 100%;
+}
+
+.card .card-btn {
+    display: flex;
+    justify-content: center;
+}
+
+.card .card-btn Button {
+    margin: 5px 5px;
+    border-radius: 20px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info .stars {
+    display: flex;
+    justify-content: center;
+}

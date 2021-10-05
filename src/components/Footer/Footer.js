@@ -18,12 +18,12 @@ export const Footer = () => {
 
           <div>
             <p><i className="fas fa-phone"></i>
-            +91 12345678</p>
+              +91 12345678</p>
           </div>
 
           <div>
             <p><i className="fas fa-envelope"></i>
-            support@somemail.com</p>
+              support@somemail.com</p>
           </div>
         </div>
 
@@ -45,11 +45,11 @@ export const Footer = () => {
           <p>Deliveries</p>
         </div>
 
-        <div className="info col">
+        <div className="col">
           <h3>Information</h3>
           <p>Search Terms</p>
           <p>Advanced Search</p>
-          <p>Helps & Faqs</p>
+          <p>Helps and Faqs</p>
           <p>Store Location</p>
           <p>Orders and Returns</p>
         </div>

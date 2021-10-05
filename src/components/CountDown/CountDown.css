@@ -1,0 +1,19 @@
+.count {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(0, 253, 0);
+    margin: 1.5rem 0;
+}
+
+.count .count-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.count img {
+    max-width: 30%;
+    max-height: 400px;
+}
