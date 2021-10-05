@@ -12,6 +12,8 @@ import { Footer } from './components/Footer/Footer';
 import './components/Footer/footer.css';
 import Pictures from './components/Pictures/Pictures';
 import './components/Pictures/Pictures.css';
+import Product from './components/Product/Product';
+import './components/Product/Product.css';
 
 function App() {
   return (
@@ -21,6 +23,7 @@ function App() {
       <Search />
       <Hero />
       <Pictures />
+      <Product />
       <Footer />
     </>
   );
