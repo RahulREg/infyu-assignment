@@ -11,3 +11,31 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.navMenu {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgba(39, 173, 13, 0.911);
+}
+
+.part {
+  display: flex;
+  color: white;
+  margin: 1rem;
+}
+
+.part a {
+  text-decoration: none;
+  color: white;
+  padding: 0 1.5rem;
+
+}
+
+.part div {
+  padding: 0 1.5rem;
+}
+
+.borderright {
+  border-right: 2px solid white;
+}
