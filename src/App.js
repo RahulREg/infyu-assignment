@@ -8,8 +8,10 @@ import Search from './components/Search/Search'
 import './components/Search/Search.css'
 import Hero from './components/Hero/Hero'
 import './components/Hero/Hero.css'
-import { Footer } from './Footer/Footer';
-import './Footer/footer.css';
+import { Footer } from './components/Footer/Footer';
+import './components/Footer/footer.css';
+import Pictures from './components/Pictures/Pictures';
+import './components/Pictures/Pictures.css';
 
 function App() {
   return (
@@ -18,6 +20,7 @@ function App() {
       <Header />
       <Search />
       <Hero />
+      <Pictures />
       <Footer />
     </>
   );
