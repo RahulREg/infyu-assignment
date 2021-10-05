@@ -1,10 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
+import './Footer/footer.css';
 import { Navbar } from './components/Navbar/Navbar';
+import { Footer } from './Footer/Footer';
 
 function App() {
   return (
-    <Navbar />
+    <div>
+      <Navbar />
+      <Footer />
+    </div> 
   );
 }
 
