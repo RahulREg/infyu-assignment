@@ -1,0 +1,31 @@
+.hero {
+    background-image: url(./veggies.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+    margin: 2rem 0;
+}
+
+.hero .hero-text {
+    color: white;
+    margin-left: 50%;
+}
+
+.hero .hero-text p {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.hero .hero-text h1 {
+    margin: 0;
+    color: rgb(0, 255, 34);
+    font-size: 4rem;
+}
+
+.hero .hero-text .shop-btn{
+    font-size: 1.2rem;
+    border-radius: 20px;
+}

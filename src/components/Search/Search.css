@@ -1,0 +1,32 @@
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search .bar{
+    display: flex;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5%;
+}
+
+.green {
+    background-color: rgba(39, 173, 13, 0.911);
+    border-radius: 0;
+    border: none;
+    transform: scale(1.03);
+}
+
+.in {
+    border: none;
+    width: 30rem;
+    flex-grow: 3;
+    padding-left: 10px;
+    border-left: 1px solid gray;
+}
+
+.in:focus {
+    outline: none;
+}

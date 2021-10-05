@@ -8,7 +8,7 @@ import { Dropdown,DropdownButton } from 'react-bootstrap';
 const Header = () => {
     return (
         <div className="header">
-            <img src="./images/gmart.PNG" className="image"/>
+            <img src="./images/gmart.PNG" className="image" alt="gmart"/>
             <div className="names">
                 <p>Home</p>
                 <DropdownButton id="dropdown-basic-button" title="Shop">
