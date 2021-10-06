@@ -26,6 +26,10 @@ import ClientReview from './components/ClientReview/ClientReview';
 import './components/ClientReview/ClientReview.css';
 import News from './components/News/News';
 import './components/News/News.css';
+import EndIcons from './components/EndIcons/EndIcons';
+import './components/EndIcons/EndIcons.css';
+import Floater from './components/Floater/Floater';
+import './components/Floater/Floater.css';
 
 
 function App() {
@@ -43,6 +47,8 @@ function App() {
       <ClientReview />
       <News />
       <Newsletter />
+      <EndIcons />
+      <Floater />
       <Footer />
     </>
   );

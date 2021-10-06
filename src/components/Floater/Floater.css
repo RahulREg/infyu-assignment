@@ -1,0 +1,35 @@
+.floater {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.floater-contain {
+    position: absolute;
+    margin: 0;
+    align-self: center;
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(0, 255, 0);
+    border-radius: 25px;
+    min-width: 300px;
+}
+
+.floater .fpart {
+    margin: 5px 20px; 
+}
+
+.floater h1 {
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+.floater p {
+    font-size: 1rem;
+    font-weight: normal;
+    margin: 0;
+}

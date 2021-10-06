@@ -1,6 +1,7 @@
 .navMenu {
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
     background-color: rgba(39, 173, 13, 0.911);
@@ -38,6 +39,12 @@
 
   .menu {
     background-color: gray;
+  }
+
+  @media (max-width: 400px) {
+    .navMenu a {
+      padding: 10px;
+    }
   }
   
   

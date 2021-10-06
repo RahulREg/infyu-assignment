@@ -6,6 +6,12 @@
 }
 
 .pics img {
-    height: 200px;
+    max-height: 200px;
     margin: 20px;
+}
+
+@media (max-width: 500px) {
+    .pics img {
+        height: 100px;
+    }
 }

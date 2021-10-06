@@ -1,5 +1,6 @@
 .search {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
@@ -29,4 +30,28 @@
 
 .in:focus {
     outline: none;
+}
+
+@media (max-width: 800px) {
+    .in {
+        width: 200px;
+    }
+}
+
+@media (max-width: 500px) {
+    .search .bar {
+        margin-top: 1rem;
+    }
+    .in {
+        width: 100px;
+    }
+}
+
+@media (max-width: 400px) {
+    .search .bar{
+        border: none;
+        margin-left: 0;
+        display: flex;
+        flex-wrap: wrap;
+    }
 }

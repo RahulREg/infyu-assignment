@@ -19,13 +19,15 @@ const Search = () => {
                 </Dropdown>
             </div>
             <div className="bar">
-                <DropdownButton id="dropdown-basic-button" title="Dropdown button &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;">
+                <DropdownButton id="dropdown-basic-button" title="Dropdown button">
                     <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
                 </DropdownButton>
-                <input className="in" type="text" placeholder="Search here" />
-                <Button className="green">
-                    Search
-                </Button>
+                <div>
+                    <input className="in" type="text" placeholder="Search here" />
+                    <Button className="green">
+                        Search
+                    </Button>
+                </div>
             </div>
         </div>
     )

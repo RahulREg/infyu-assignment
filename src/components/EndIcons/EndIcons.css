@@ -1,0 +1,12 @@
+.endicons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 2rem;
+    margin-bottom: 5rem;
+}
+
+.endicons .eicons img{
+    max-height: 150px;
+}
