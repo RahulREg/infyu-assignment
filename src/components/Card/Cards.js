@@ -7,7 +7,7 @@ const Cards = () => {
         <div className="wrap">
             <div className="card">
                 <div className="img-contain">
-                    <img src="./images/watermelon.jpg" alt="item-image" />
+                    <img src="./images/watermelon.jpg" alt="item" />
                 </div>
                 <div className="info">
                     <div className="card-btn">
@@ -29,7 +29,7 @@ const Cards = () => {
             </div>
             <div className="card">
                 <div className="img-contain">
-                    <img src="./images/mushroom.jpg" alt="item-image" />
+                    <img src="./images/mushroom.jpg" alt="item" />
                 </div>
                 <div className="info">
                     <div className="card-btn">
@@ -51,7 +51,7 @@ const Cards = () => {
             </div>
             <div className="card">
                 <div className="img-contain">
-                    <img src="./images/rice.jpg" alt="item-image" />
+                    <img src="./images/rice.jpg" alt="item" />
                 </div>
                 <div className="info">
                     <div className="card-btn">
@@ -73,7 +73,7 @@ const Cards = () => {
             </div>
             <div className="card">
                 <div className="img-contain">
-                    <img src="./images/coriander.png" alt="item-image" />
+                    <img src="./images/coriander.png" alt="item" />
                 </div>
                 <div className="info">
                     <div className="card-btn">
@@ -95,7 +95,7 @@ const Cards = () => {
             </div>
             <div className="card">
                 <div className="img-contain">
-                    <img src="./images/tomato.jpg" alt="item-image" />
+                    <img src="./images/tomato.jpg" alt="item" />
                 </div>
                 <div className="info">
                     <div className="card-btn">

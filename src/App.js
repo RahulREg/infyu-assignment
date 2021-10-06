@@ -18,6 +18,14 @@ import Cards from './components/Card/Cards';
 import './components/Card/Cards.css';
 import CountDown from './components/CountDown/CountDown';
 import './components/CountDown/CountDown.css';
+import Newsletter from './components/Newsletter/Newsletter';
+import './components/Newsletter/Newsletter.css';
+import SpecialProduct from './components/SpecialProduct/SpecialProduct';
+import './components/SpecialProduct/SpecialProduct.css';
+import ClientReview from './components/ClientReview/ClientReview';
+import './components/ClientReview/ClientReview.css';
+import News from './components/News/News';
+import './components/News/News.css';
 
 
 function App() {
@@ -31,6 +39,10 @@ function App() {
       <Product />
       <Cards />
       <CountDown />
+      <SpecialProduct />
+      <ClientReview />
+      <News />
+      <Newsletter />
       <Footer />
     </>
   );

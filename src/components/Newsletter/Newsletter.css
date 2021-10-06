@@ -1,0 +1,29 @@
+.newsletter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1.5rem 0;
+    background-color: rgb(2, 211, 2);
+    padding: 2rem;
+}
+
+.newsletter .search-bar {
+    display: flex;
+    border: 1px solid black;
+    padding: 0;
+    margin: 0;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.newsletter .letter-search {
+    border-radius: 20px;
+    border: none;
+    text-align: center;
+}
+
+.newsletter Button {
+    border-radius: 20px;
+    transform: scale(1.03);
+}
